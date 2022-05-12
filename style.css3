@@ -1,0 +1,302 @@
+*{
+  font-family: "adobe-clean", sans-serif;
+  color: #050517;
+ 
+} 
+#navbar {
+  display : flex;
+  justify-content: flex-start; 
+  align-items : center;
+  align-content:center;
+  width:94%;
+  margin-top:1px;
+  list-style:none;
+  font-size:16px; 
+  padding:8px;
+  border-radius:2px;
+  background-color: rgba(254,95,85,0.9);
+  
+ 
+}
+a {
+  color:#050517;
+  text-decoration: none;
+}
+.img__banner{
+  display:flex;
+  justify-content:center;
+  width:90%;
+  padding:30px;
+ background-image: linear-gradient(
+      115deg,
+      rgba(54,54,54, 0.8),
+      rgba(211, 213, 215, 0.4)
+   ),
+   
+   url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0zVOXqfEtDXcN9In9uvk1Bh1qQGUes-Ckg&usqp=CAU");
+
+   }
+
+
+li{
+  padding:5px;
+  width:50%;
+  border-radius:1px;
+}
+
+.avatar {
+  position: relative;
+  height: 150px;
+  width: 120px;
+  color:#ffffff;
+  
+}
+
+.avatar__conteudo {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 0;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin:0;
+  
+}
+
+.avatar__imagem {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  overflow:hidden;
+  border-radius:50%;
+  
+}
+
+.avatar__badge {
+  position: absolute;
+  bottom: -9px;
+  left: calc(50% - 20px);
+  color: #000000;
+  background-color: #ffffff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ 
+  
+#projects{
+  padding:4rem;
+  color:#fef55;
+}
+
+
+.projects-section{
+  
+  text-align: center;
+  padding: 10rem 2rem;
+  
+ 
+
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 3rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+;
+  
+}
+@media (max-width: 30.625em) {
+  .projects-section {
+    padding: 5rem 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+ 
+.project-title {
+  font-size: 1.50rem;
+  padding: 0.50rem 0.1rem;
+  text-align:center;
+}
+
+.project-image{
+  
+  width: 100%;
+  object-fit: cover;}
+
+.project {
+  
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  color:white;
+}
+
+.contact-section{
+  
+  border-radius: 3px;
+  padding:20px;
+  display:block;
+ text-align:center;
+  
+  
+}
+
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.20rem;
+  margin-bottom:auto;
+  border-radius: 2px;
+  border-color:transparent;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-color:transparent;
+  border-radius:2px;
+}
+  
+  
+  .form-contact{
+ 
+ display: block;
+  width:95%;
+  height: 2.275rem;
+  padding:0.100rem 0.60rem;
+  border: 1px solid #d3d5d7;
+ 
+  }
+.input-textarea{
+  min-height: 100px;
+  width:98%;
+  height: 2.375rem;
+  padding: 0.200rem 0.300rem;
+  border-radius: 2px;
+  border-color:#d3d5d7;
+  
+  
+  }
+  
+.submit-button {
+  display: flex;
+  justify-content:center;
+  width: 100%;
+  padding:0.30rem;
+  border-radius: 2px;
+  background: #fe5f55;
+  color: #fff;
+  margin:5px
+  ;
+   }
+#contact{
+  color:#050517;
+  border-radius: 8px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 24px 32px 32px 32px;
+    margin-top: 5px;
+}
+#welcome-section{
+  display:flex;
+  flex-direction:;
+  justify-content:flex-end;
+  align-items:;
+}
+#Formacao, #Experiencia{
+  margin: 20px auto auto 20px;
+  
+  background-color:#0505517;
+  
+  
+}
+ 
+
+#div1,#div2 {
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+  padding:30px;
+ align-items:center;
+  
+}
+
+span{
+  text-transform:uppercase;
+  font-size:12px;
+  padding:1px;
+  
+}
+
+
+ .instituicao{
+      text-transform:lowercase;
+   font-size:12px;
+   font-height:100px;
+   margin-left:5px;
+  }
+.nome__formacao{
+  font-weight:bold;
+}
+.formacao1, .formacao2, .formacao3{
+  background-color:;
+  border-radius:2px;
+  
+   
+  
+}
+
+.contact-links{
+  display:inline-block;
+  padding:20px;
+  margin-left:25px;
+}
+
+#profile-link{
+  margin:10px;
+  
+}
+#sobre{
+padding:20px;
+  
+}
+@media screen and (min-width: 740px){
+  #div1,#div2{
+    max-width: 100px;
+   max- height: 150px;
+    display: inline-block;
+  padding:30px;
+ align-items:center;
+  }
+  #contact{
+   border-radius: 8px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+    padding: 24px 32px 32px 32px;
+    margin-top: 5px;
+}
+  
+  
+  .contact-section,#sobre,contact-links{
+width: 416px;
+    margin: 0 auto;
+}
+ 
+  
